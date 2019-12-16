@@ -1,0 +1,28 @@
+#savedapp.error {
+  width:400px;
+}
+
+#progress {
+  padding:10px;
+}
+
+#errormessage {
+  color: #4b4f56; /* fig-medium-text */
+  direction: ltr;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+  display:none;
+}
+
+#savedapp.error #errormessage {
+  display:block;
+}
+
+#savedapp.error #progress {
+  display:none;
+}
